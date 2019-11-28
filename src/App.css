@@ -1,3 +1,36 @@
+body {
+  background-color: #1f1f1f;
+
+}
+#gh:hover, #ig:hover, #li:hover, #me:hover, #re:hover
+{
+    fill-opacity:0.4;
+}
+.social-icon
+{
+  fill:#d9d9d9;
+  background-color: blue;
+
+}
+#contact ul
+{
+  color:white;
+  text-align:center;
+  background-color: red;
+  list-style: none;
+  width: 10%;
+  margin: auto;
+
+}
+#contact li
+{
+  display:inline; 
+  text-align: center;
+
+}
+.txt{
+  color: #d9d9d9;
+}
 .App {
   text-align: center;
 }
