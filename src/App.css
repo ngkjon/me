@@ -2,6 +2,9 @@ body {
   background-color: #1f1f1f;
 
 }
+.page{
+  height: 100vh;
+}
 #gh:hover, #ig:hover, #li:hover, #me:hover, #re:hover
 {
     fill-opacity:0.4;
@@ -16,20 +19,27 @@ body {
 {
   color:white;
   text-align:center;
-  background-color: red;
   list-style: none;
-  width: 10%;
+  /* list-style-position:outside; */
   margin: auto;
+  padding: 0;
+  
 
 }
 #contact li
 {
   display:inline; 
   text-align: center;
+  padding: 5px;
 
 }
 .txt{
   color: #d9d9d9;
+}
+.title{
+  font-size: 28vh;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 .App {
   text-align: center;

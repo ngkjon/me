@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Main from './components/main'
+import About from './components/about'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           rel="noopener noreferrer"
         > */}
           <Main/>
+          <About/>
           {/* Learn React
         </a>
       </header> */}
