@@ -33,6 +33,14 @@ body {
   padding: 5px;
 
 }
+.project-image{
+  width:30%;
+  height:50vh;
+  object-fit: cover;
+  object-position: 50% 0;
+
+
+}
 .txt{
   color: #d9d9d9;
 }

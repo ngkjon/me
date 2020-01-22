@@ -3,10 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 import Main from './components/main'
 import About from './components/about'
+import Projects from './components/projects.js'; 
+import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+
+
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,11 +25,13 @@ function App() {
           rel="noopener noreferrer"
         > */}
           <Main/>
-          <About/>
+          {/* <About/> */}
+          <Projects/>
           {/* Learn React
         </a>
       </header> */}
     </div>
+    </BrowserRouter>
   );
 }
 
