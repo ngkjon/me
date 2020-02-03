@@ -41,11 +41,16 @@ body {
 
 
 }
+Cursor{
+  color: white;
+}
 .txt{
   color: #d9d9d9;
+  font-size: 2vh;
+
 }
 .title{
-  font-size: 28vh;
+  font-size: 15vh;
   font-weight: bold;
   margin-bottom: 0;
 }

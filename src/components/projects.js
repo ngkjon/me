@@ -6,7 +6,7 @@ function Projects(props) {
   return (
     // Render a Thumbnail component
     <div>
-      <h1 class="txt">Projects</h1>
+      <h1 class="txt title">Projects</h1>
       <Thumbnail
         link=""
         image={require("../resources/hq.jpg")}
